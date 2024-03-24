@@ -43,10 +43,15 @@
             {
                 MessageBox.Show("Введено некорректное число. Введите трехзначное число.", "Ошибка");
             }
-            else 
+            else
             {
                 MessageBox.Show("Наибольшая цифра в числе: " + Logic.FindMaxDigit(number).ToString(), "Ответ");
             }
+            textBox1.Clear();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             textBox1.Clear();
         }
     }
