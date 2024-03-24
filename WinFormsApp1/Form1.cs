@@ -18,7 +18,7 @@
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)  //Кнопка ТЫК
         {
             //MessageBox.Show(this.textBox1.Text);
             //MessageBox.Show("Ура работает! (╯°□°）╯︵ ┻━┻");
@@ -50,7 +50,7 @@
             textBox1.Clear();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)  //Кнопка Очистить
         {
             textBox1.Clear();
         }
