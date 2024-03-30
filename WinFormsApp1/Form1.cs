@@ -8,6 +8,16 @@
             textBox1.Text = Properties.Settings.Default.number.ToString();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)  //Кнопка ТЫК
         {
             //MessageBox.Show(this.textBox1.Text);
@@ -26,7 +36,6 @@
             }
 
             Properties.Settings.Default.number = number;
-            //Properties.Settings.Default.Reset();
             Properties.Settings.Default.Save();
 
             //number = int.Parse(this.textBox1.Text);

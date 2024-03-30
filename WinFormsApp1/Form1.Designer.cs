@@ -38,48 +38,47 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(14, 12);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(706, 20);
+            label1.Size = new Size(559, 15);
             label1.TabIndex = 0;
             label1.Text = "6. Дано трехзначное число. Не прибегая к использованию строк вывести наибольшую из его цифр";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(269, 43);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Location = new Point(235, 32);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(114, 27);
+            textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(39, 47);
+            label2.Location = new Point(34, 35);
             label2.Name = "label2";
-            label2.Size = new Size(205, 20);
+            label2.Size = new Size(162, 15);
             label2.TabIndex = 2;
             label2.Text = "Введите трехзначное число:";
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ControlDark;
-            button1.Location = new Point(426, 43);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(373, 32);
             button1.Name = "button1";
-            button1.Size = new Size(105, 31);
+            button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
-            button1.Text = "Выполнить";
+            button1.Text = "ТЫК";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.BackColor = SystemColors.ControlDark;
-            button2.Location = new Point(559, 43);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(472, 31);
             button2.Name = "button2";
-            button2.Size = new Size(86, 31);
+            button2.Size = new Size(75, 23);
             button2.TabIndex = 4;
             button2.Text = "Очистить";
             button2.UseVisualStyleBackColor = false;
@@ -87,15 +86,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(759, 93);
+            ClientSize = new Size(586, 70);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Задача на if";
             ResumeLayout(false);

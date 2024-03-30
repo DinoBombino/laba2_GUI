@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace WinFormsApp2
 {
     public partial class Form1 : Form
@@ -26,14 +29,10 @@ namespace WinFormsApp2
 
             MessageBox.Show("Сформированный ряд предшествующих чисел: " + Logic.Generate(input), "Ответ");
         }
+
         private void button2_Click(object sender, EventArgs e)  // Кнопка Очистить
         {
             textBox1.Clear();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 
