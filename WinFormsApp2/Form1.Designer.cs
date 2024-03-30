@@ -46,11 +46,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(262, 57);
+            button1.Location = new Point(250, 57);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(87, 23);
             button1.TabIndex = 1;
-            button1.Text = "ТЫК";
+            button1.Text = "Выполнить";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 

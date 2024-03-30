@@ -43,7 +43,6 @@
             label1.Size = new Size(559, 15);
             label1.TabIndex = 0;
             label1.Text = "6. Дано трехзначное число. Не прибегая к использованию строк вывести наибольшую из его цифр";
-            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -51,7 +50,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
@@ -69,7 +67,7 @@
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
-            button1.Text = "ТЫК";
+            button1.Text = "Выполнить";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
